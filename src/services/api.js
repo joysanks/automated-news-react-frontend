@@ -8,7 +8,7 @@ const API = {
 
       // Priority 2: Backend API (the main source in React SPA mode)
       try {
-        const backendRes = await fetch('http://localhost:3000/api/content');
+        const backendRes = await fetch('https://automated-news-backend.onrender.com/api/content');
         if (backendRes.ok) {
           const json = await backendRes.json();
           return json.data || [];
