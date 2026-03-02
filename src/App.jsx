@@ -28,7 +28,7 @@ const App = () => (
       <Route path="/admin" element={<AdminPage />} />
 
       {/* All other pages share header + footer */}
-      <Route``
+      <Route
         path="*"
         element={
           <>
