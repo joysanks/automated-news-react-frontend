@@ -39,14 +39,12 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Main Header */}
       <header className="main-header">
         <div className="container nav-container">
           <Link to="/" className="logo">
-            <h3>NirmanWeb</h3>
+            <h3>GenPress</h3>
           </Link>
 
-          {/* Desktop Nav */}
           <nav>
             <ul className="nav-links">
               <li>
