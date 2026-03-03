@@ -24,10 +24,8 @@ const NotFound = () => (
 const App = () => (
   <BrowserRouter>
     <Routes>
-      {/* Admin page has its own full layout (no shared header/footer) */}
       <Route path="/admin" element={<AdminPage />} />
 
-      {/* All other pages share header + footer */}
       <Route
         path="*"
         element={
