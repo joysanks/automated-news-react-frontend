@@ -28,6 +28,12 @@ const CATEGORIES_DATA = [
     to: "/category/exams",
   },
   {
+    icon: "📚",
+    title: "Others",
+    description: "Other News",
+    to: "/category/others",
+  },
+  {
     icon: "🛠️",
     title: "How-To Guides",
     description: "Step-by-step tutorials and tips",
